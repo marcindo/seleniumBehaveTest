@@ -1,0 +1,14 @@
+# ============================================================================
+# PYTHON PACKAGE REQUIREMENTS:
+# ============================================================================
+# REQUIRES: Python >= 2.7
+# DESCRIPTION:
+#    pip install -r <THIS_FILE>
+#
+# SPECIFIC DEPENDENCIES:
+#   behave  -- BDD test framework, cucumber-clone for Python.
+#   selenium   -- web driver utility for automate web page testing
+# ============================================================================
+
+behave >= 1.2.5
+selenium >= 2.45.0
