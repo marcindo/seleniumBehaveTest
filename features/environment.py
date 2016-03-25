@@ -12,7 +12,7 @@ from datetime import datetime
 @capture
 def before_all(context):
     context.config.setup_logging()
-    context.browser = webdriver.Chrome()
+    context.browser = webdriver.Firefox()
     now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     context.log_directory= os.path.dirname(__file__)+ \
 '\\..\\logs\\{}\\'.format(now)
